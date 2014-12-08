@@ -3,27 +3,20 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-12">
-  				<h1><%= name %></h1>
-  			</div>
-  		</div>
-  		
-  		<div class="row">
-  			<div class="col-md-12">
-  				<center>
-	  				<iframe 	width="853" 
-	  							height="480" 
-	  							src="//www.youtube.com/embed/1j3IctobSPc?rel=0&amp;showinfo=0" 
-	  							frameborder="0" 
-	  							allowfullscreen>
-	  				</iframe>
-  				</center>
-  			</div>
-  		</div>
-  	</div>
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+					<iframe 
+						allowfullscreen="" src="http://www.youtube.com/embed/1j3IctobSPc?feature=player_detailpage" 
+						frameborder="0">
+					</iframe>
+				</div>
+			</div>
+		</div>  
+	</div>
   </body>
 </html>
