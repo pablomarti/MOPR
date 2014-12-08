@@ -28,3 +28,9 @@
     vertical-align: middle;
     float: none;
 }
+
+.imageClip{
+    width:70%;
+    height: auto;
+    overflow:hidden;
+}
